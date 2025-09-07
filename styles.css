@@ -1,0 +1,55 @@
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Lexend+Deca:wght@100..900&family=Outfit:wght@100..900&display=swap');
+* { 
+  margin: 0px; 
+  padding:0px;
+  box-sizing: border-box;
+  font-family: "Lexend Deca", sans-serif;
+}
+:root { 
+  --blue600: hsl(185, 75%, 39%); 
+  --Navy950: hsl(229,23%,23%); 
+  --Gray500: hsl(227, 10%, 46%);
+  --Gray100: hsl(225, 10%, 92%);
+}
+body { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+  width: 100%;
+  background-color: var(--blue600);
+}
+.card { 
+  height: 60vh;
+  width: 50%;
+  border-radius: 8%;
+  background-color: white;
+  text-align: center;
+ 
+}
+.card .first-card { 
+  width: 100%;
+  background-image: url(./images/bg-pattern-card.svg);
+  height: 40%;
+  border-radius: 8% 8% 0 0;
+}
+
+.second-card img { 
+  border-radius: 50%;
+  border: 1px solid white;
+  position: relative;
+  bottom: 60px;
+  width: 20%;
+  height: 20%;
+}
+.vic_h1   { 
+  position: relative;
+  bottom: 50px;
+}
+.vic_p { 
+    position: relative;
+    bottom: 45px;
+}
